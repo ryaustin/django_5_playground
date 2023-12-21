@@ -1,0 +1,8 @@
+[project]
+name = "django5-playground"
+version = "0.1.0"
+description = "Django5 Playground"
+dependencies = ["django"]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-django", "pytest-cov", "ruff"]
